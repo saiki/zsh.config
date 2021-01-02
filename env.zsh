@@ -13,7 +13,7 @@ export FPATH
 [ -s "$HOME/opt/google-cloud-sdk/path.zsh.inc" ] && \. $HOME/opt/google-cloud-sdk/path.zsh.inc
 
 # install rbenv
-if [ -s $HOME/.rbenv/bin]; then
+if [ -s $HOME/.rbenv/bin ]; then
   path+=(
     $HOME/.rbenv/bin
   )
