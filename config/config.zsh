@@ -11,3 +11,8 @@ if [[ -n $(echo ${^fpath}/chpwd_recent_dirs(N)) && -n $(echo ${^fpath}/cdr(N)) ]
     zstyle ':chpwd:*' recent-dirs-file "$HOME/.cache/chpwd-recent-dirs"
 fi
 
+autoload -Uz colors
+autoload -Uz vcs_info
+autoload -Uz add-zsh-hook
+
+set opt nobeep

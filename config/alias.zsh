@@ -1,4 +1,8 @@
-alias vi='vimx'
-alias vim='vimx'
+if [ -x vimx ];then
+  alias vi='vimx'
+  alias vim='vimx'
+fi
 
-alias emacs='emacs -nw'
+if [ -x emacs ];then
+  alias emacs='emacs -nw'
+fi
