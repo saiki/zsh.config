@@ -1,3 +1,4 @@
+alias ls='ls --color=auto'
 if [ -x vimx ];then
   alias vi='vimx'
   alias vim='vimx'

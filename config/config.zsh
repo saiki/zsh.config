@@ -16,3 +16,7 @@ autoload -Uz vcs_info
 autoload -Uz add-zsh-hook
 
 set opt nobeep
+
+autoload -U compinit
+compinit
+zstyle ':completion:*' list-colors "${LS_COLORS}"
